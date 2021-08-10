@@ -42,7 +42,7 @@ func main() {
 	if err != nil {
 		panic("failed to start polling: " + err.Error())
 	}
-	fmt.Printf("%s has been started...\nMade with ❇️ by @SDBOTs_inifinity (@SDBOTs_inifinity).\n", b.User.Username)
+	fmt.Printf("%s has been started...\nPowered by:- ❇ by @epusthakalaya_bots (@epusthakalaya_bots).\n", b.User.Username)
 
 	// Idle, to keep updates coming in, and avoid bot stopping.
 	updater.Idle()
@@ -84,7 +84,7 @@ func start(ctx *ext.Context) error {
 		"--------------------------------------------------\n" +
 		"Do /gen to generate an account\n" +
 		"--------------------------------------------------\n" +
-		"❇️Brought to You By @SDBOTs_inifinity❇️\n*"
+		"❇️Brought to You By @epusthakalaya_bots❇️\n*"
 
 	user := ctx.EffectiveUser
 	channel_id, cerror := strconv.Atoi(os.Getenv("CHANNEL_ID"))
