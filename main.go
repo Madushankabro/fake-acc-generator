@@ -42,7 +42,7 @@ func main() {
 	if err != nil {
 		panic("failed to start polling: " + err.Error())
 	}
-	fmt.Printf("%s has been started...\nPowered by:- ❇ by @epusthakalaya_bots (@epusthakalaya_bots).\n", b.User.Username)
+	fmt.Printf("%s has been started...\nPowered by:- ©️ by @epusthakalaya_bots (@epusthakalaya_bots).\n", b.User.Username)
 
 	// Idle, to keep updates coming in, and avoid bot stopping.
 	updater.Idle()
@@ -82,16 +82,16 @@ func start(ctx *ext.Context) error {
 		"-------------------------------------------------\n" +
 		"I can provide premium accounts of different services\n" +
 		"--------------------------------------------------\n" +
-		"Do /gen to generate an account\n" +
+		"Hit /gen to generate an account\n" +
 		"--------------------------------------------------\n" +
-		"❇️Brought to You By @epusthakalaya_bots❇️\n*"
+		"©️ @epusthakalaya_bots \n*"
 
 	user := ctx.EffectiveUser
 	channel_id, cerror := strconv.Atoi(os.Getenv("CHANNEL_ID"))
 	if cerror != nil {fmt.Println("Please Provide me a valid Channel ID")}
 	member, eror := ctx.Bot.GetChatMember(int64(channel_id), user.Id)
 	if eror != nil {
-		ctx.Bot.SendMessage(ctx.EffectiveChat.Id, "*Bot not admin in JoinCheck Channel.*", nil)
+		ctx.Bot.SendMessage(ctx.EffectiveChat.Id, "**Bot not admin in Join Check Channel.**", nil)
 		return nil
 	}
 	// For Checking either user joined channel or not
@@ -126,7 +126,7 @@ func gen(ctx *ext.Context) error {
 		"\n\n𝙀𝙢𝙖𝙞𝙡: `%v`" +
 		"\n𝙋𝙖𝙨𝙨: `%v`" +
 		"\n𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝘽𝙮: *%v*" +
-		"\n\n𝙏𝙝𝙖𝙣𝙠 𝙮𝙤𝙪 𝙛𝙤𝙧 𝙪𝙨𝙞𝙣𝙜 𝙢𝙚!\n❇️𝙎𝙝𝙖𝙧𝙚 & 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 *%v*❇️"
+		"\n\n𝙏𝙝𝙖𝙣𝙠 𝙮𝙤𝙪 𝙛𝙤𝙧 𝙪𝙨𝙞𝙣𝙜 𝙢𝙚!\n🔅𝙎𝙝𝙖𝙧𝙚 & 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 *%v*"
 
 	user := ctx.EffectiveUser
 	channel_id, cerror := strconv.Atoi(os.Getenv("CHANNEL_ID"))
