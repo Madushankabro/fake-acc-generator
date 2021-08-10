@@ -19,8 +19,11 @@ Deploy Via Heroku.
 
 
 ## Support   
-Join the [Suport](https://t.me/SDBOTz) for support and the [Updates](https://t.me/SDBOTs_inifinity) for updates.   
+Join the [Suport](https://t.me/epusthakalayabotsupport) for support and the [Updates](https://t.me/epusthakalaya_bots) for updates.   
 Account-Generator Bot - [Click here](https://t.me/) 
+
+## Credits ♥️
+- [Original Repo](https://github.com/Sadew451/Account-Generator)
 
 
 ## Disclaimer
