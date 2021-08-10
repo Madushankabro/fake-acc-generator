@@ -15,7 +15,7 @@ To Add Accounts Just Replace Combos after line 60 in main.go
 ## Deploying
 Deploy Via Heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadew451/Account-Generator)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Madushankabro/fake-acc-generator)
 
 
 ## Support   
